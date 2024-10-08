@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -39,7 +39,9 @@
   },
   "name":"Galaxy",
   "resources":[
+    {"id":{"name":"obj_navplayer","path":"objects/obj_navplayer/obj_navplayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_init","path":"scripts/scr_init/scr_init.yy",},},
     {"id":{"name":"spr_alien","path":"sprites/spr_alien/spr_alien.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_background2","path":"sprites/spr_background2/spr_background2.yy",},},
